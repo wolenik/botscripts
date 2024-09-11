@@ -31,7 +31,7 @@ def send_notification(ip_address, chat_id):
 def main():
     try:
         ip_address = get_internal_ip()
-        chat_id = '6885586738'  # Your chat ID or channel ID
+        chat_id = 'your_chat_id'  # Your chat ID or channel ID
         send_notification(ip_address, chat_id)
     except Exception as e:
         print("An error occurred:", e)

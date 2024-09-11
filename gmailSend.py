@@ -9,7 +9,7 @@ def get_ip_address():
     return ip.strip()
 
 def send_email(ip_address):
-    sender_email = "your_emaiL@email.com"
+    sender_email = "your_email@email.com"
     receiver_email = "their_email.email.com"
     app_password = "your_app_password"
 

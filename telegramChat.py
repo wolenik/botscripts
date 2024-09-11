@@ -31,7 +31,7 @@ async def main():
     # Telegram bot token
     bot_token = "your telegram bot token"
     # Chat ID of your Telegram bot
-    chat_id = "self explanatory"
+    chat_id = "telegram chat ID"
 
     # Get the IP address of the Raspberry Pi
     ip_address = get_local_ip_address()

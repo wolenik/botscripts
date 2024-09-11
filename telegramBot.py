@@ -3,7 +3,7 @@ from telegram import Bot
 import socket
 
 # Your Telegram Bot API token
-token = '7034943373:AAGKk42G83-JrLVvUr-ymLO20sBVltSB9pI'
+token = 'telegram_bot_api_token'
 bot = Bot(token=token)
 
 # Function to get the device's internal IP address
@@ -29,7 +29,7 @@ async def send_notification(ip_address, chat_id):
 async def main():
     try:
         ip_address = get_internal_ip()
-        chat_id = '6885586738'  # Your chat ID or channel ID
+        chat_id = 'bot_chat_id'  # Your chat ID or channel ID
         await send_notification(ip_address, chat_id)
     except Exception as e:
         print("An error occurred:", e)
